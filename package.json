@@ -1,0 +1,21 @@
+{
+  "name": "winkelwagen",
+  "scripts": {
+    "start": "parcel serve ./src/index.html --open",
+    "build": "npm run clean && parcel build ./src/index.html --dist-dir ./out --no-source-maps",
+    "clean": "rm -rf ./.parcel-cache ./dist ./out",
+    "serve": "live-server ./out",
+    "deploy": "surge ./out --domain https://reduxtoolkit_oef1-fe2-bjorn.surge.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "redux-logger": "^3.0.6"
+  }
+}

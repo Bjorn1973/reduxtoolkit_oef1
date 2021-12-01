@@ -1,0 +1,1 @@
+body{background-color:#d3d3d3}form{display:flex;flex-direction:column}form .add,form input{border-radius:3px;width:10%}form .add{background-color:green;margin-top:5px}.list{flex-direction:column}.list,.list div{display:flex}.list div .list__item{margin-top:5px;width:10%}.list div .delete{background-color:red;border-radius:3px;font-weight:700;margin-top:5px}

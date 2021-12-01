@@ -1,0 +1,35 @@
+body {
+  background-color: lightgrey;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  input {
+    width: 10%;
+    border-radius: 3px;
+  }
+  .add {
+    width: 10%;
+    margin-top: 5px;
+    background-color: green;
+    border-radius: 3px;
+  }
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  div {
+    display: flex;
+
+    .list__item {
+      margin-top: 5px;
+      width: 10%;
+    }
+    .delete {
+      margin-top: 5px;
+      background-color: red;
+      font-weight: bold;
+      border-radius: 3px;
+    }
+  }
+}
